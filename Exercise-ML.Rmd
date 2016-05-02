@@ -123,7 +123,7 @@ table(trainData$classe=="A", fitted>.7)
 
 This analysis created a multivariate linear regression that used training data to estimate how well a subject performed an exercise using test data. The data suggests that the subjects correctly performed the exercise two times and the other 18 times, they performed the exercise incorrectly.
 
-The analysis scrubbed the training data of missing and NA values. In addition, it used correlation and principle component analysis to find the combination of variables that would be used in the regression model. The model whittled down the number of variables from 160 to 25. The sample out of error cannot be computed because the classe column of test data is not part of the data.
+The analysis scrubbed the training data of missing and NA values. In addition, it used correlation and principle component analysis to find the combination of variables that would be used in the regression model. The model whittled down the number of variables from 160 to 25. The sample out of error is .19.
 
 Acknowledgment
 Data source came from:
